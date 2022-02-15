@@ -1,0 +1,45 @@
+@import '_section1';
+@import '_section2';
+@import '_section3';
+@import '_section4';
+@import '_section5';
+@import '_sec9';
+
+section{
+    +section{
+        padding-bottom:70px;
+    }
+}
+.col2{
+    padding: 20px 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 26px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 22px;
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-size: 18px;
+}
+h6{
+    font-size: 16px;
+    font-weight: bold;
+}
+p{
+    font-size:16px;
+}
+img{
+    max-width: 100%;
+}

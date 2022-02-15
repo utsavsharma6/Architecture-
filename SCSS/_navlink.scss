@@ -1,0 +1,22 @@
+a.btn{
+    display: inline-block;
+    border: none;
+    color:white;
+    text-decoration: none;
+    font-weight: 600;
+    &:hover{
+        border: none;
+        background-color: white;
+        color: #4978dd;
+        font-weight: 600;
+        
+    }
+}
+
+
+.form-control{
+    .fc{
+    background-color: #4978dd;
+    }
+
+}

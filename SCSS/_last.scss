@@ -1,0 +1,49 @@
+.link{
+    padding: 0;
+    margin-bottom: 25px;
+    list-style-type: none;
+}
+li {
+    +li {
+        margin-left: 40px;
+    }
+}
+
+
+.same{
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.copyright{
+    letter-spacing: 3px;
+}
+.white{
+    width: 6px;
+    height:6px;
+    border-radius:50%;
+    display: inline-block;
+    background-color: white;
+    margin:9px;
+    
+}
+
+a.footerlink{
+    padding: 0;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    &:hover{
+        border: none;
+        background-color: rgb(84, 149, 235);
+        color:black;
+        font-weight: 600;
+        padding:8px 25px;
+        border-radius: 25px;
+    }
+}
+
+.under5{
+    display: inline-block;
+    border-bottom: 7px solid rgb(204, 155, 63);
+    padding-bottom: 20px;
+}
