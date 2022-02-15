@@ -3,6 +3,10 @@
 @import '_cardtd';
 @import '_btn3';
 
+
+.rowtd{
+    row-gap: 20px;
+}
 .under3{
     display: inline-block;
     border-bottom: 7px solid teal;
